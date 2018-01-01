@@ -3,6 +3,8 @@
 const express = require('express'),
       app = express();
 
+app.enable('trust proxy');
+
 app.get('/*', (req, res) => {
     res.status(200).json({
         ipaddress: req.ip,
