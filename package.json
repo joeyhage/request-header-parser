@@ -1,0 +1,22 @@
+{
+  "name": "request-header-parser",
+  "version": "1.0.0",
+  "description": "A request header parser microservice for the FreeCodeCamp Back End Development Certification.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeyhage/request-header-parser.git"
+  },
+  "author": "Joey Hage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeyhage/request-header-parser/issues"
+  },
+  "homepage": "https://github.com/joeyhage/request-header-parser#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
